@@ -4,7 +4,7 @@ using System.ComponentModel;
 
 namespace ExtraSharp
 {
-    public class StoryItem<T>
+    public class StoryItem<T> : IStory
     {
         private List<T> Story = new List<T>();
         private T Final;

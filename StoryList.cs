@@ -12,7 +12,7 @@ namespace ExtraSharp
         Removed,
         Created,
     }
-    public class StoryList<T> : IList<T>
+    public class StoryList<T> : IList<T>, IStory
     {
         private struct Event
         {
